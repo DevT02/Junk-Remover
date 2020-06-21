@@ -330,9 +330,9 @@ namespace Anti_De4dot_remover
             {
                 if (fakeObfuscators.Contains(module.Types[i].Name))
                 { 
-                     UInt32 a = module.Types[i].MDToken.Raw;
-                     TypeDef type = module.ResolveTypeDef(MDToken.ToRID(a));
-                     module.Types.Remove(type);              
+                     //UInt32 a = module.Types[i].MDToken.Raw;
+                     //TypeDef type = module.ResolveTypeDef(MDToken.ToRID(a));
+                     module.Types.Remove(module.Types[i]);              
                      countofths++;
                 }
             }
