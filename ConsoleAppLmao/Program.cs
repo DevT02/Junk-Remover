@@ -72,7 +72,6 @@ namespace Anti_De4dot_remover
             if (preserveEverything)
             {
                 moduleWriterOptions.MetaDataOptions.Flags |= MetaDataFlags.PreserveAll;
-                moduleWriterOptions.Logger = DummyLogger.NoThrowInstance;
             }
             moduleWriterOptions.Logger = DummyLogger.NoThrowInstance;
             NativeModuleWriterOptions nativeModuleWriterOptions = new NativeModuleWriterOptions(Program.module);
