@@ -19,6 +19,10 @@ namespace Anti_De4dot_remover
             Console.Title = "Junk Remover by OFF_LINE";
             Console.ForegroundColor = ConsoleColor.Red;
             string text = args[0];
+            bool preserveEverything = true;
+            string[] shit = File.ReadAllLines(AppDomain.CurrentDomain.BaseDirectory + "\\settings.txt");
+            if (!shit[0].Contains("true"))
+                preserveEverything = false;            
             try
             {
                 Program.module = ModuleDefMD.Load(text);
@@ -65,10 +69,16 @@ namespace Anti_De4dot_remover
             }
             string text3 = string.Format("{0}{1}_noJunk{2}", text2, Path.GetFileNameWithoutExtension(text), Path.GetExtension(text));
             ModuleWriterOptions moduleWriterOptions = new ModuleWriterOptions(Program.module);
-            moduleWriterOptions.MetaDataOptions.Flags |= MetaDataFlags.PreserveAll;
+            if (preserveEverything)
+            {
+                moduleWriterOptions.MetaDataOptions.Flags |= MetaDataFlags.PreserveAll;
+                moduleWriterOptions.Logger = DummyLogger.NoThrowInstance;
+            }
             moduleWriterOptions.Logger = DummyLogger.NoThrowInstance;
             NativeModuleWriterOptions nativeModuleWriterOptions = new NativeModuleWriterOptions(Program.module);
-            nativeModuleWriterOptions.MetaDataOptions.Flags |= MetaDataFlags.PreserveAll;
+            if (preserveEverything) {
+                nativeModuleWriterOptions.MetaDataOptions.Flags |= MetaDataFlags.PreserveAll;
+            }
             nativeModuleWriterOptions.Logger = DummyLogger.NoThrowInstance;
             bool isILOnly = Program.module.IsILOnly;
             if (isILOnly)
