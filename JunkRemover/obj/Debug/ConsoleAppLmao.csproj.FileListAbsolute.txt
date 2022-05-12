@@ -1,0 +1,8 @@
+C:\Users\devli\source\repos\Junk-Remover\JunkRemover\bin\Debug\ConsoleAppLmao.exe.config
+C:\Users\devli\source\repos\ConsoleAppLmao\JunkRemover\bin\Debug\ConsoleAppLmao.exe
+C:\Users\devli\source\repos\ConsoleAppLmao\JunkRemover\bin\Debug\ConsoleAppLmao.pdb
+C:\Users\devli\source\repos\ConsoleAppLmao\JunkRemover\bin\Debug\dnlib.dll
+C:\Users\devli\source\repos\ConsoleAppLmao\JunkRemover\obj\Debug\ConsoleAppLmao.csproj.CoreCompileInputs.cache
+C:\Users\devli\source\repos\ConsoleAppLmao\JunkRemover\obj\Debug\ConsoleAppLmao.csproj.CopyComplete
+C:\Users\devli\source\repos\ConsoleAppLmao\JunkRemover\obj\Debug\ConsoleAppLmao.exe
+C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\obj\Debug\ConsoleAppLmao.pdb

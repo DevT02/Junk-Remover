@@ -9,11 +9,9 @@ using dnlib.DotNet.Writer;
 using System.Windows.Forms;
 namespace Anti_De4dot_remover
 {
-    // Token: 0x02000002 RID: 2
     internal class Program
     {
         public static int countofths = 0;
-        // Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00000250
         private static void Main(string[] args)
         {
             Console.Title = "Junk Remover by OFF_LINE";

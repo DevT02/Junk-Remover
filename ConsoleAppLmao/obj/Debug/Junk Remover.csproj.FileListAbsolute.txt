@@ -1,8 +1,0 @@
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\obj\Debug\Junk Remover.csproj.CoreCompileInputs.cache
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\obj\Debug\ConsoleAppLmao.exe
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\obj\Debug\ConsoleAppLmao.pdb
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\bin\Debug\ConsoleAppLmao.exe.config
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\bin\Debug\ConsoleAppLmao.exe
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\bin\Debug\ConsoleAppLmao.pdb
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\bin\Debug\dnlib.dll
-C:\Users\devli\source\repos\ConsoleAppLmao\ConsoleAppLmao\obj\Debug\Junk Remover.csproj.CopyComplete

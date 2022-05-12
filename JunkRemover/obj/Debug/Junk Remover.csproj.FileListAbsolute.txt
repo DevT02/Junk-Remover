@@ -1,0 +1,8 @@
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\obj\Debug\Junk Remover.csproj.CoreCompileInputs.cache
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\obj\Debug\Junk Remover.exe
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\obj\Debug\Junk Remover.pdb
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\bin\Debug\Junk Remover.exe.config
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\bin\Debug\Junk Remover.exe
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\bin\Debug\Junk Remover.pdb
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\bin\Debug\dnlib.dll
+C:\Users\devli\source\repos\Junk Remover\Junk Remover\obj\Debug\Junk Remover.csproj.CopyComplete
