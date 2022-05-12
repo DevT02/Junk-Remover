@@ -2,7 +2,5 @@
 .NET attributes cleaner/Junk remover for obfuscation. Credits to Prab + Illuzion, code is pretty much theirs haha.
 
 # Help
-drag and drop ur file into the thing
+Drag and drop your file into the executable
 
-# wtf
-this was coded terribly, but i guess it works :shrug:
